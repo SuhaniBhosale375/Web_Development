@@ -1,0 +1,119 @@
+.4f<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Details</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body{
+           background-image: url("../Assest/hospital management immage.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           background-position: center;
+           background-attachment: fixed;
+        }
+    
+        .box{
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh;
+
+        }
+        .container{
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            padding: 0 15px 0 15px;
+        }
+        h1{
+            color: #fff;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0 10px 0;
+        }
+        .input-feild{
+            display: flex;
+            flex-direction: column;
+        }
+         .input{
+            height: 45px;
+            width: 87%;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            color: #fff;
+            padding:   0 0 0 45px;
+            background: rgba(255,255,255,0.1);
+            margin: 20px;
+        } 
+
+        i{
+            position: relative;
+            top: -33px;
+            left: 17px;
+            color: #fff ;
+
+        }
+        ::-webkit-input-placeholder{
+            color: #fff ;
+        }
+       
+        .lable{
+            color: #fff ;
+        }
+        .submit div{
+            display: inline-block;
+            text-align: center;
+        }
+        .submit div > input{
+            height: 45px;
+            width: 100px;
+            border: none;
+            outline: none;
+            border-radius: 30px;
+            color: #e1d9d9;
+            background: rgba(255,255,255,0.1);
+            margin: 20px;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="container">
+                <h1>Login Details</h1>
+            </div>
+            <div class="input-feild">
+                <input type="text" class="input" placeholder="Username"required>
+               
+            </div>
+
+            <div class="input-feild">
+                <input type="password" class="input" placeholder="password"required>  
+               
+            </div>
+
+            <div class="submit">
+
+                <div>
+                    <input type="submit"  value="Resister">
+                </div>
+                <div>
+                    <input type="submit"  value="Login">  
+                </div>
+                <div>
+                    <input type="submit"  value="Reset"> 
+                </div>
+
+            </div> 
+        </div>
+    </div>
+
+</body>
+</html>
